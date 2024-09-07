@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+  <title>Article preview component | Frontend Mentor</title>
+  <link rel="stylesheet" href="./assets/styles/styles.css">
+</head>
+<body>
+  <main>
+    <article class="article">
+      <picture>
+        <source media="(min-width: 778px)" srcset="./assets/images/drawers.jpg" width="285" height="280">
+        <img class="article__img" src="./assets/images/drawers.jpg" width="327" height="200" alt="article hero">
+      </picture>
+      <section class="article__inner-content">
+        <section class="article__text-content">
+          <p class="article__text-title">
+            Shift the overall look and feel by adding these wonderful touches to furniture in your home
+          </p>
+          <p class="article__text-subtitle">
+            Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve
+            got some simple tips to help you make any room feel complete.
+          </p>
+        </section>
+        <section class="article__author">
+          <section class="article__share-container">
+            <p class="article__share-title">
+              SHARE
+            </p>
+            <nav class="article__links-nav">
+              <ul>
+                <li><a href="#"><img src="./assets/images/icon-facebook.svg" alt=""></a></li>
+                <li><a href="#"><img src="./assets/images/icon-twitter.svg" alt=""></a></li>
+                <li><a href="#"><img src="./assets/images/icon-pinterest.svg" alt=""></a></li>
+              </ul>
+            </nav>
+          </section>
+          <section class="article__left-side">
+            <img class="article__left-side-img" src="./assets/images/avatar-michelle.jpg" width="40" height="40" alt="image of author">
+            <section class="article__name-date">
+              <p class="article__name">
+                Michelle Appleton
+              </p>
+              <time class="article__time" date-time="2020-06-28">28 Jun 2020</time>
+            </section>
+          </section>
+          <button class="article__share-btn">
+            <svg class="article__share-icon" xmlns="http://www.w3.org/2000/svg" width="15" height="13">
+              <path fill="#6E8098" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/>
+            </svg>
+          </button>
+        </section>
+      </section>
+    </article>
+  </main>
+
+  <script src="./assets/script/script.js"></script>
+</body>
+
+</html>

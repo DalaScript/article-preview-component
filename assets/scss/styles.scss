@@ -1,15 +1,15 @@
-// Colors
-// Primary
+/* Colors
+ ******************************/
+/* Primary
+ ***************/
 $very-dark-grayish-blue: #48556a;
 $desaturated-dark-blue: #6E8098;
 $grayish-blue: #9eafc2;
 $light-grayish-blue: #ecf2f8;
 $white: #ffffff;
 
-/*
- * GLOBAL VARIABLES
- */
-
+/* Global Variables
+ ******************************/
 * {
     margin: 0;
     padding: 0;
@@ -34,7 +34,8 @@ body {
 }
 
 
-// Body Elements
+/* Body Elements
+ ******************************/
 main {
     display: flex;
     justify-content: center;

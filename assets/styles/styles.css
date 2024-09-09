@@ -1,6 +1,9 @@
-/*
- * GLOBAL VARIABLES
- */
+/* Colors
+ ******************************/
+/* Primary
+ ***************/
+/* Global Variables
+ ******************************/
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +23,8 @@ body a {
   text-decoration: none;
 }
 
+/* Body Elements
+ ******************************/
 main {
   display: flex;
   justify-content: center;

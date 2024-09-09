@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/DalaScript/article-preview-component)
-- [Live Site URL](https://dalascript.github.io/article-preview-component/)
+- [Live Site URL](https://DalaScript.github.io/article-preview-component/)
 
 ## My process
 
